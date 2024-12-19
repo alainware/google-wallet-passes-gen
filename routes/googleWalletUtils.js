@@ -1,8 +1,6 @@
 /* Libraries */
 const express = require('express');
-const bodyParser = require('body-parser');
 const {GoogleAuth} = require("google-auth-library");
-const jwt = require("jsonwebtoken");
 const router = express.Router();
 /* Google Settings */
 // Issuer ID
